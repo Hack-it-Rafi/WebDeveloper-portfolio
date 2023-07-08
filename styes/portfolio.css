@@ -19,6 +19,8 @@ body {
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+    cursor: pointer;
+    margin-right: 15px;
 }
 
 /* nav related styles */
@@ -66,18 +68,26 @@ nav a {
 .banner2 .profile-pic{
     width: 500px;
 }
+.banner-text{
+    margin-left: 60px;
+}
 .banner-greeting{
     font-size: 45px;
     color: #474747;
     margin-bottom: 0px;
+    /* margin-left: 60px; */
 }
 .banner-title{
     font-size: 85px;
     margin-top: 5px;
     margin-bottom: 20px;
+    /* margin-left: 60px; */
 }
 .banner-description{
     width: 500px;
+    color: #757575;
+    margin-bottom: 25px;
+    /* margin-left: 60px; */
 }
 /* full banner */
 .dev-img{
@@ -85,6 +95,7 @@ nav a {
     width: 90px;
     padding-top: 25px;
     padding-bottom: 15px;
+    padding-left: 17px;
 }
 .banner{
     margin: 0px;
@@ -93,7 +104,7 @@ nav a {
 
 /* about me er kaj shuru */
 .about-me{
-    margin: 130px 230px;
+    margin: 130px 210px;
 }
 .about-container{
     background-color: #fef0e6;
@@ -169,3 +180,75 @@ nav a {
     font-weight: 200;
     margin: 0px 23px 25px 23px;
 }
+/* Skills done */
+
+/* Summary */
+.two-blocks{
+    display: flex;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 230px;
+    margin-top: 100px;
+    margin-bottom: 58px;
+}
+.education{
+    margin-top: 25px;
+}
+.block{
+    margin-right: 60px;
+    color: #757575;
+}
+.block-head{
+    color: #474747;
+    margin-bottom: 5px;
+}
+/* summary done */
+
+/* Form */
+.form{
+    margin-top: 100px;
+    background-color: #FFF8F3;
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+}
+.left{
+    width: 450px;
+    margin-right: 100px;
+}
+.footer-head{
+    font-size: 35px;
+    font-weight: 700;
+}
+.foot-icon{
+    width: 30px;
+    margin-right: 7px;
+}
+.foot-text{
+    color: #757575;
+    font-size: 14px;
+    font-weight: 350px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.main-form{
+    margin-top: 25px;
+    margin-bottom: 110px;
+}
+.tab{
+    width: 400px;
+    height: 20px;
+    padding: 15px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    border: 1px solid black
+}
+.message{
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    border: 1px solid black
+    
+}
+
