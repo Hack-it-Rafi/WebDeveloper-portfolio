@@ -55,7 +55,7 @@ nav a {
 /* header related style*/
 .header{
     background-color: #FFF8F3;
-    background-image: url("./header_bg.png");
+    background-image: url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: bottom right;
 }
@@ -139,16 +139,18 @@ nav a {
 .What-I-Do{
     margin-top: 130px;
     margin-bottom: 130px;
+    
 }
 .What-text{
     text-align: center;
+    
 }
 .What-Desc{
     text-align: center;
     color: #757575;
     width: 800px;
     height: 90px;
-    margin-left: 300px;
+    margin-left: 20%;
     margin-top: 30px;
     margin-bottom: 50px;
 }
@@ -250,5 +252,92 @@ nav a {
     border-radius: 5px;
     border: 1px solid black
     
+}
+.hide{
+    display: none;
+}
+@media screen and (max-width: 576px) {
+    .What-text{
+        text-align: center;
+        margin-left: 20px;
+    }
+    .What-Desc{
+        text-align: center;
+        margin-left: 0px;
+        width: 95%;
+    }
+    .skills{
+        flex-direction: column;
+    }
+    .box{
+        width: auto;
+    }
+    .two-blocks{
+        display: block;
+        text-align: justify;
+        margin: 20px;
+        padding: 0px;
+    }
+    .block{
+        margin: 0px;
+    }
+    .form{
+        display: block;
+        padding: 20px;
+    }
+    .left{
+        margin: 100px 0px;
+    }
+    .about-me{
+        margin: auto;
+        margin-top: 50px;
+    }
+    .about-container{
+        padding: 20px;
+    }
+    .about-description{
+        text-align: justify;
+    }
+    .personal-info{
+        display: block;
+    }
+    .info{
+        margin-bottom: 40px;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner2{
+        display: block;
+    }
+    nav{
+        display: block;
+        margin: auto;
+    }
+    nav>h3{
+        text-align: center;
+    }
+    nav li{
+        margin-right: 0px;
+    }
+    nav>ul{
+        justify-content: space-around;
+        gap: 50px;
+        width: auto;
+    }
+    .dev-img{
+        display: none;
+    }
+    .banner2{
+        width:calc(100% - 60px);
+        padding: 30px;
+    }
+    .banner-description{
+        width: 80%;
+    }
+    .profile-pic{
+        margin-bottom: -34px;
+        /* width: 20px; */
+    }
 }
 
